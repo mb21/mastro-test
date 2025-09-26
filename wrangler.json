@@ -2,5 +2,11 @@
   "name": "mastro-test",
   "main": "server.js",
   "compatibility_date": "2025-09-25",
-  "upload_source_maps": true
+  "find_additional_modules": true,
+  "rules": [{
+    "type": "Text",
+    "globs": [
+      "**/*.md"
+    ]
+  }]
 }
